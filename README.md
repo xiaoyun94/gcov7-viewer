@@ -1,7 +1,7 @@
 # GCOV7-JSON
 
 ## Background
-- Compatiable for plugin [Gcov Viewer] in VSCode
+- Compatiable for plugin [Gcov Viewer](https://github.com/JacquesLucke/gcov-viewer) in VSCode
 - Transfers gcov-7 line format to gcov-9 json format
 
 ## Limitation
