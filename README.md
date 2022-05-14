@@ -6,7 +6,8 @@
 
 ## Limitation
 - Only valid for absolute path project temporarily now
-- Support build Suite: CMake + Makefiles
+- ✔️Tested build suite: CMake + Makefiles 
+- ❌Failed test build suite: CMake + Ninja
 
 ## Usage
 - 1. Install Tool
