@@ -8,6 +8,7 @@
 - Only valid for absolute path project temporarily now
 - ✔️Tested build suite: CMake + Makefiles 
 - ❌Failed test build suite: CMake + Ninja
+- You must install Python 3
 
 ## Usage
 - 1. Install Tool
