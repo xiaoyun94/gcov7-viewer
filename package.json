@@ -2,7 +2,7 @@
 	"name": "gcov7-viewer",
 	"displayName": "Gcov7 Viewer",
 	"description": "",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"publisher": "Bigforce",
 	"engines": {
 		"vscode": "^1.67.0"
@@ -20,8 +20,6 @@
 	],
 	"main": "./dist/extension.js",
 	"contributes": {
-		"commands": [
-		]
 	},
 	"extensionDependencies": [
 		"jacqueslucke.gcov-viewer"
