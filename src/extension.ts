@@ -10,7 +10,7 @@ export function activate(context: vscode.ExtensionContext) {
 	// This line of code will only be executed once when your extension is activated
 	console.log('Congratulations, your extension "gcov7-viewer" is now active!');
 
-	let gcovAdapter: string = context.asAbsolutePath("README.md");
+	let gcovAdapter: string = context.asAbsolutePath("gcov7-json.py");
 	vscode.workspace.getConfiguration().update("gcovViewer.gcovBinary", gcovAdapter, vscode.ConfigurationTarget.Global);
 	vscode.window.showInformationMessage('gcovViewer.gcovBinary has been replaced with gcov7-json adapter');
 

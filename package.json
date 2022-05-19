@@ -1,13 +1,17 @@
 {
 	"name": "gcov7-viewer",
-	"displayName": "gcov7-viewer",
+	"displayName": "Gcov7 Viewer",
 	"description": "",
 	"version": "0.0.1",
 	"publisher": "Bigforce",
 	"engines": {
 		"vscode": "^1.67.0"
 	},
-	"preview" : true,
+	"repository": {
+		"url": "https://github.com/xiaoyun94/gcov7-viewer",
+		"type": "git"
+	},
+	"preview" : false,
 	"categories": [
 		"Other"
 	],
@@ -17,8 +21,6 @@
 	"main": "./dist/extension.js",
 	"contributes": {
 		"commands": [
-			{
-			}
 		]
 	},
 	"extensionDependencies": [
