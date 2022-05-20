@@ -7,6 +7,7 @@
 	"engines": {
 		"vscode": "^1.46.0"
 	},
+	"icon": "image/gcov7.png",
 	"repository": {
 		"url": "https://github.com/xiaoyun94/gcov7-viewer",
 		"type": "git"

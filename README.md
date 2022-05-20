@@ -1,4 +1,4 @@
-# GCOV7-JSON
+# GCOV7 VIEWER
 
 ## Background
 - Compatiable for plugin [Gcov Viewer](https://github.com/JacquesLucke/gcov-viewer) in VSCode
@@ -11,16 +11,4 @@
 - You must install Python 3
 
 ## Usage
-- 1. Install Tool
-```bash
-#install py to executable path
-chmod 755 ./gcov7-json.py
-cp ./gcov7-json.py /usr/bin/
-```
-- 2. Open VSCode config, add this item in JSON config file
-```json
-{
-    "gcovViewer.gcovBinary": "gcov7-json.py",
-}
-```
-- 3. Start using plugin [Gcov Viewer] in VSCode
+- Nothing to config, this extension config gcov7 adapter as gcov binary
