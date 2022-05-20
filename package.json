@@ -2,10 +2,10 @@
 	"name": "gcov7-viewer",
 	"displayName": "Gcov7 Viewer",
 	"description": "",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"publisher": "Bigforce",
 	"engines": {
-		"vscode": "^1.63.0"
+		"vscode": "^1.46.0"
 	},
 	"repository": {
 		"url": "https://github.com/xiaoyun94/gcov7-viewer",
@@ -36,7 +36,7 @@
 		"test": "node ./out/test/runTest.js"
 	},
 	"devDependencies": {
-		"@types/vscode": "^1.67.0",
+		"@types/vscode": "^1.46.0",
 		"@types/glob": "^7.2.0",
 		"@types/mocha": "^9.1.1",
 		"@types/node": "14.x",
