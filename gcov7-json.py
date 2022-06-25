@@ -49,12 +49,15 @@ def resolv(data_array):
     return 0
 
 def main():
-    file = open("/root/test.log", "w")
+    root = os.path.expanduser("~/.cache")
+    os.makedirs(root, exist_ok=True)
+
+    file = open(os.path.join(root, "gcov7-json.log"), "w")
     file.write(os.getcwd() + "\n")
     file.write(" ".join(sys.argv) + "\n")
     file.close()
     if len(sys.argv) <= 1:
-        print("2333")
+        print("Bad Parameter Num.")
         exit(1)
 
     option = sys.argv[1]

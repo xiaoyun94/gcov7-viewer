@@ -2,7 +2,7 @@
 	"name": "gcov7-viewer",
 	"displayName": "Gcov7 Viewer",
 	"description": "",
-	"version": "0.0.3",
+	"version": "0.0.5",
 	"publisher": "Bigforce",
 	"engines": {
 		"vscode": "^1.46.0"
