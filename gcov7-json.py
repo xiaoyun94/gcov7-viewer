@@ -77,10 +77,13 @@ def main():
     file_list = [ os.path.realpath(a) for a in file_list ]
     file_para = " ".join(file_list)
     with TemporaryDirectory() as dirname:
-        f = os.popen("cd {} && gcov -b -c -x -i -l {}".format(dirname, file_para))
+        f = os.popen("pushd {} && gcov -b -c -x -i -l {}".format(dirname, file_para))
         result = f.readlines()
         #print(result)
-        f = os.popen("cat {}/*.gcov".format(dirname, file_para))
+        if os.name == "nt":
+            f = os.popen("pushd {} && type *.gcov".format(dirname, file_para))
+        if else:
+            f = os.popen("pushd {} && cat *.gcov".format(dirname, file_para))
         result = f.readlines()
         #print(result)
         resolv(result)
