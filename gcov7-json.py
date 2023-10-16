@@ -9,6 +9,7 @@ def resolv(data_array):
     result = {
         "files" : []
     }
+    func = ""
     for line in data_array:
         line = line.replace("\r", "")
         line = line.replace("\n", "")
